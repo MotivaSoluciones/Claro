@@ -8326,15 +8326,15 @@ table {
 .white-popup {
 	position: relative;
 	background: #FFF;
-	width: auto;
-	width: 433px;
+	/* width: auto; */
+	width: 600px;
 	margin: 20px auto;
 }
 
 .kt-popup-newsletter {
-	padding: 20px 60px;
+	/* padding: 20px 60px; */
 	text-align: center;
-	padding-bottom: 100px;
+	/* padding-bottom: 100px; */
 }
 
 .kt-popup-newsletter .popup-title {
@@ -9677,6 +9677,9 @@ RESPONSIVE
 	.box-bann {
 		display: none;
 	}
+	.box-bann-home {
+		display: none;
+	}
 }
 
 .wdt-100porc {
@@ -9727,6 +9730,16 @@ RESPONSIVE
 	padding: 20px 30px;
 	background-color: #3c3c3c;
 	margin-top: 2%;
+}
+.box-bann-home{
+	position: absolute;
+    top: 60px;
+    left: 170px;
+    padding: 20px 30px;
+    background-color: #4e4e4e;
+    margin-top: 2%;
+    max-width: 400px;
+    width: 100%;
 }
 
 .header.style3.ontop .pnt-resp {
@@ -11308,4 +11321,19 @@ li.info-pts {
 }
 .mrg-top40i{
 	margin-top: 40px !important;
+}
+.mrg-top20{
+	margin-top: 20px;
+}
+.mrg-top30{
+	margin-top: 30px;
+}
+
+.btn-grey{
+	background-color: #e5e5e5 !important;
+	color: #000;
+	margin-right: 10px;
+}
+.btn-grey:hover{
+	background-color: #b6b6b6 !important;
 }
