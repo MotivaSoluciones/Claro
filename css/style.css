@@ -10,9 +10,9 @@ Last change: 01/15/2016
     Body Color : #555555
     Accent color: #7d7b7b
 [Typography]
-    Body:       14px/24px Montserrat, sans-serif;
-    Heading:    Montserrat, sans-serif;
-    Input, textarea: 12px/24px Montserrat, sans-serif;
+    Body:       14px/24px AMX, sans-serif;
+    Heading:    AMX, sans-serif;
+    Input, textarea: 12px/24px AMX, sans-serif;
 
 [Component module]
     FONTFACE
@@ -30,6 +30,25 @@ Last change: 01/15/2016
 /*------------------
  FONTFACE 
 ------------------*/
+
+@font-face {
+	font-family: 'AMX';
+	font-style: normal;
+	font-weight: normal;
+	src: local('AMX-Regular'), url('../fonts/AMX-Regular.ttf') format('opentype');
+}
+@font-face {
+	font-family: 'AMX-Medium';
+	font-style: normal;
+	font-weight: normal;
+	src: local('AMX-Medium'), url('../fonts/AMX-Medium.ttf') format('opentype');
+}
+@font-face {
+	font-family: 'AMX-Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('AMX-Bold'), url('../fonts/AMX-Bold.ttf') format('opentype');
+}
 
 @font-face {
 	font-family: 'DearPrudence';
@@ -57,19 +76,19 @@ Last change: 01/15/2016
 }
 
 @font-face {
-	font-family: 'Montserrat Light';
+	font-family: 'AMX Light';
 	font-style: normal;
 	font-weight: 300;
-	src: local('Montserrat Light'),
-		local('Montserrat-Light'),
-		url("../fonts/Montserrat-Light.ttf") format('opentype'),
+	src: local('AMX Light'),
+		local('AMX-Light'),
+		url("../fonts/AMX-Light.ttf") format('opentype'),
 }
 
 @font-face {
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Montserrat-Light'), url('../fonts/Montserrat-Light.ttf') format('opentype');
+	src: local('AMX-Light'), url('../fonts/AMX-Light.ttf') format('opentype');
 }
 
 [class^="flaticon-"]:before,
@@ -107,7 +126,7 @@ COMMON STYLES
 ---------------------*/
 
 body {
-	font-family: 'Montserrat';
+	font-family: 'AMX';
 	font-size: 14px;
 	line-height: 24px;
 	color: #555;
@@ -240,7 +259,7 @@ input[type="submit"] {
 	color: #fff;
 	cursor: pointer;
 	display: inline-block;
-	padding: 9px 25px;
+	padding: 8px 25px;
 	text-align: center;
 	text-transform: uppercase;
 	-webkit-transition: all 0.3s ease 0s;
@@ -841,7 +860,7 @@ blockquote.style2:after {
 	margin: 0;
 	padding: 0;
 	display: inline-block;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	font-size: 13px;
 
 }
@@ -2491,7 +2510,7 @@ blockquote.style2:after {
 
 .header-bottom-sidebar-menu {
 	margin: 0;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	text-transform: none;
 	font-size: 13px;
 	margin-bottom: 20px;
@@ -4061,7 +4080,7 @@ ICON
 	-moz-transition: all 0.3s ease-out 0s;
 	-o-transition: all 0.5s ease-out 0s;
 	transition: all 0.5s ease-out 0s;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 }
 
 .element-icon.style3 .subtite {
@@ -4113,11 +4132,11 @@ ICON
 .element-icon.style4 .title {
 	font-size: 18px;
 	margin: 0;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 }
 
 .element-icon.style4 .title strong {
-	font-family: 'Montserrat';
+	font-family: 'AMX';
 	font-weight: 700;
 }
 
@@ -4326,7 +4345,7 @@ FOOTER
 .footer.style2 {
 	background-color: #f0f0f0;
 	color: #666;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	font-size: 13px;
 }
 
@@ -4340,7 +4359,7 @@ FOOTER
 
 .footer.style2 .widget .widget-title {
 	color: #333;
-	font-family: 'Montserrat';
+	font-family: 'AMX';
 }
 
 .footer.style2 .contact-info .phone {
@@ -4448,7 +4467,7 @@ FOOTER
 .footer.style4 {
 	text-align: center;
 	font-size: 13px;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 }
 
 .footer.style4 .contact-info .logo {
@@ -4489,7 +4508,7 @@ FOOTER
 .footer.style5 {
 	text-align: center;
 	font-size: 13px;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 }
 
 .footer.style5 .widget {
@@ -5169,7 +5188,7 @@ FOOTER
 }
 
 .lastest-blog.style3 .metas {
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	font-size: 12px;
 }
 
@@ -5184,7 +5203,7 @@ FOOTER
 }
 
 .lastest-blog.style3 .desc {
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	font-size: 13px;
 }
 
@@ -5220,7 +5239,7 @@ FOOTER
 
 .lastest-blog.style4 .blog-date {
 	padding: 0;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	margin-bottom: 15px;
 }
 
@@ -5255,7 +5274,7 @@ FOOTER
 }
 
 .lastest-blog.style5 .metas {
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	text-transform: uppercase;
 	font-size: 10px;
 	color: #666666;
@@ -5272,7 +5291,7 @@ FOOTER
 }
 
 .lastest-blog.style5 .metas .date .day {
-	font-family: 'Montserrat';
+	font-family: 'AMX';
 	font-weight: 700;
 	font-size: 24px;
 }
@@ -5280,7 +5299,7 @@ FOOTER
 .lastest-blog.style5 .metas .date .day:after {
 	content: '/';
 	display: inline-block;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	font-size: 16px;
 }
 
@@ -6371,7 +6390,7 @@ FOOTER
 }
 
 .product-details-right.style2 {
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	width: 100%;
 	float: left;
 }
@@ -6379,7 +6398,7 @@ FOOTER
 .product-details-right.style2 .product-name {
 	color: #000;
 	margin-bottom: 0;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 }
 
 .product-details-right.style2 .short-descript {
@@ -6390,7 +6409,7 @@ FOOTER
 
 .product-details-right .price {
 	margin-bottom: 20px;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 }
 
 .product-details-right.style2 .cart-form {
@@ -6684,7 +6703,7 @@ table.group-product a:hover {
 
 table.group-product .price {
 	margin: 0;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	font-size: 14px;
 }
 
@@ -7058,7 +7077,7 @@ BLOG PAGE
 .butique-banner .bottom {
 	font-size: 13px;
 	color: #666;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 }
 
 .butique-banner .block-link {
@@ -7314,7 +7333,7 @@ BLOG PAGE
 
 .testimonials .testimonial-info {
 	font-size: 13px;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	color: #fff;
 	text-align: center;
 	max-width: 430px;
@@ -7649,7 +7668,7 @@ BLOG PAGE
 	border: none;
 	border-bottom: 1px solid #ccc;
 	padding-left: 0;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	font-size: 13px;
 	width: 100%;
 }
@@ -7724,7 +7743,7 @@ BLOG PAGE
 	background-color: #7d7b7b;
 	color: #fff;
 	text-transform: uppercase;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 }
 
 .block-text p {
@@ -7733,7 +7752,7 @@ BLOG PAGE
 
 .block-text .primary {
 	font-size: 18px;
-	font-family: 'Montserrat';
+	font-family: 'AMX';
 	font-weight: 700;
 }
 
@@ -7908,7 +7927,7 @@ BLOG PAGE
 	text-transform: uppercase;
 	font-size: 12px;
 	color: #666;
-	font-family: 'Montserrat';
+	font-family: 'AMX';
 	width: 100%;
 	text-decoration: underline;
 	text-align: center;
@@ -8170,7 +8189,7 @@ table {
 	border: 1px solid #dddddd;
 	padding: 26px 30px;
 	margin-bottom: 40px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'AMX', sans-serif;
 	padding-bottom: 55px;
 }
 
@@ -8189,7 +8208,7 @@ table {
 }
 
 .box-cart-total .price {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'AMX', sans-serif;
 	color: #222;
 }
 
@@ -8270,14 +8289,14 @@ table {
 .shop-table.order td.total,
 .shop-table.order th.total {
 	text-align: right;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'AMX', sans-serif;
 	color: #222;
 }
 
 .shop-table.order .order-total td {
 	background-color: #111111;
 	color: #fff;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'AMX', sans-serif;
 	padding: 13px 25px;
 	border: none;
 }
@@ -8293,7 +8312,7 @@ table {
 }
 
 .payment_methods .payment_method label {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'AMX', sans-serif;
 	font-weight: normal;
 	margin-bottom: 0;
 	display: inline-block;
@@ -8590,7 +8609,7 @@ table {
 	margin-top: 60px;
 	padding: 87px 0 110px 0;
 	background-image: url('../images/slides/pralax3.png');
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 	background-position: center;
 }
 
@@ -8601,7 +8620,7 @@ table {
 .block-paralax3 .title {
 	font-size: 48px;
 	color: #333;
-	font-family: 'MontserratLight';
+	font-family: 'AMXLight';
 }
 
 .section-block-text {
@@ -10013,7 +10032,7 @@ li.info-pts {
 	display: flex;
 	grid-gap: 50px;
 	padding: 80px 0 100px 0;
-	font-family: 'Roboto Slab';
+	font-family: 'AMX';
 	font-size: 16px;
 	box-sizing: border-box;
 	color: rgba(0, 0, 0, 0.8);
