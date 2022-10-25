@@ -267,7 +267,7 @@ input[type="submit"] {
 	transition: all 0.3s ease 0s;
 	background: transparent;
 	position: relative;
-	background-color: #FEC900;
+	background-color: #e32213;
 	font-size: 12px;
 	border: none;
 	font-weight: 600;
@@ -9663,7 +9663,7 @@ RESPONSIVE
 }
 
 .style-10 {
-	background: #FEC900;
+	background: #da291c;
 }
 
 @media (max-width: 680px) {
